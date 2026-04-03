@@ -82,6 +82,7 @@
       "happy-dom@<20.8.9": ">=20.8.9"
     },
     "patchedDependencies": {
+      "ajv-keywords@3.5.2": "patches/ajv-keywords@3.5.2.patch",
       "vudio@2.1.1": "patches/vudio@2.1.1.patch",
       "@malept/flatpak-bundler@0.4.0": "patches/@malept__flatpak-bundler@0.4.0.patch",
       "kuromoji@0.1.2": "patches/kuromoji@0.1.2.patch",
