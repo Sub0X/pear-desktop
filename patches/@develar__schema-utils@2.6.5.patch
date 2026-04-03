@@ -1,0 +1,12 @@
+diff --git a/dist/validate.js b/dist/validate.js
+--- a/dist/validate.js
++++ b/dist/validate.js
+@@ -46,7 +46,7 @@ const ajv = new _ajv.default({
+   $data: true,
+   coerceTypes: true
+ });
+-(0, _ajvKeywords.default)(ajv, ['instanceof', 'formatMinimum', 'formatMaximum', 'patternRequired']); // Custom keywords
++(0, _ajvKeywords.default)(ajv, ['instanceof', 'typeof', 'formatMinimum', 'formatMaximum', 'patternRequired']); // Custom keywords
+ 
+ (0, _absolutePath.default)(ajv);
+ /**
